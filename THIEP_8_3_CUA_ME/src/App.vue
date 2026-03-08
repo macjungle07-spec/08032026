@@ -58,9 +58,9 @@
         <div class="spark small s-c">✦</div>
 
         <div class="reveal-badge">8/3</div>
-        <div class="reveal-text">ĐƯỢC MỜI MỞ CẢM XÚC</div>
+        <div class="reveal-text">CHÚC MẸ NGÀY QUỐC TẾ PHỤ NỮ VUI VẺ</div>
         <p>
-          Một món quà nho nhỏ, nhưng là tất cả yêu thương con muốn gửi đến mẹ.
+          Con có một món quà nho nhỏ muốn dành tặng cho mẹ.
         </p>
         <button class="primary-btn" type="button" @click="startIntroSequence">
           Sẵn sàng 💖
@@ -198,7 +198,7 @@
           </div>
 
           <div ref="finalTitleRef" class="final-main-title">
-            Xin phép con gom về một điều đẹp nhất
+            Con xin phép gom lại những bức ảnh đẹp nhất
           </div>
         </div>
 
@@ -220,7 +220,7 @@
         </button>
 
         <div class="final-bottom-note">
-          Chúc mẹ luôn thật nhiều niềm vui, thật nhiều bình an và thật nhiều yêu thương 💗
+          Con chúc mẹ luôn thật nhiều niềm vui, bình an và nhiều hạnh phúc 💗
         </div>
       </div>
     </section>
@@ -334,7 +334,7 @@ const introWomenRef = ref(null)
 const introSubRef = ref(null)
 
 const selectedPhoto = ref(null)
-const momName = 'Mẹ yêu'
+const momName = 'mẹ'
 
 const photos = ref([
   { id: 1, src: img01, alt: 'Kỷ niệm 1', caption: 'Khoảnh khắc thật đẹp của bố mẹ' },
@@ -365,7 +365,7 @@ const bookPages = ref([
     src: img01,
     alt: 'Trang 1',
     title: 'Gửi mẹ yêu',
-    text: 'Cảm ơn mẹ vì đã luôn dịu dàng, ấm áp và yêu thương con theo cách đẹp nhất.'
+    text: 'Con cảm ơn mẹ vì đã luôn dịu dàng, ấm áp và yêu thương con.'
   },
   {
     id: 2,
@@ -399,15 +399,15 @@ const bookPages = ref([
     id: 6,
     src: img11,
     alt: 'Trang 6',
-    title: 'Mùa hè của con',
-    text: 'Những ngày bên gia đình luôn là những ngày con muốn giữ lại mãi mãi.'
+    title: 'Yêu thương',
+    text: 'Mẹ luôn là người nhận được thật nhiều yêu thương, vì mẹ xứng đáng với điều đó.'
   },
   {
     id: 7,
     src: img15,
     alt: 'Trang 7',
-    title: 'Yêu thương',
-    text: 'Mẹ luôn là người nhận được thật nhiều yêu thương, vì mẹ xứng đáng với điều đó.'
+    title: 'Mùa hè của con',
+    text: 'Những ngày bên gia đình luôn là những ngày con muốn giữ lại mãi mãi.'
   },
   {
     id: 8,
@@ -431,17 +431,17 @@ const floatingWords = computed(() => [
   { text: 'Mãi yêu mẹ', style: { top: '12%', left: '8%' } },
   { text: 'Mẹ yêu ơi', style: { top: '18%', right: '8%' } },
   { text: 'Luôn hạnh phúc', style: { top: '40%', left: '6%' } },
-  { text: 'Con thương mẹ', style: { top: '32%', right: '9%' } },
-  { text: 'Mãi dịu dàng', style: { bottom: '22%', left: '8%' } },
-  { text: 'Bình an nhé', style: { bottom: '14%', right: '8%' } }
+  { text: 'Con iu mẹ', style: { top: '32%', right: '9%' } },
+  { text: 'Mẹ mãi dịu dàng', style: { bottom: '22%', left: '8%' } },
+  { text: 'Và bình an nhé', style: { bottom: '14%', right: '8%' } }
 ])
 
 const galleryWords = computed(() => [
   { text: 'Tình yêu bé nhỏ', style: { top: '12%', left: '30%' } },
   { text: 'Mãi bên nhau', style: { top: '24%', right: '10%' } },
   { text: 'Gia đình mình', style: { top: '58%', left: '8%' } },
-  { text: 'Con thương mẹ', style: { top: '72%', right: '10%' } },
-  { text: 'Mẹ là điều dịu dàng nhất', style: { top: '36%', left: '12%' } },
+  { text: 'Con iu mẹ', style: { top: '72%', right: '10%' } },
+  { text: 'Mẹ là người dịu dàng nhất', style: { top: '36%', left: '12%' } },
   { text: 'Bình an và hạnh phúc', style: { top: '16%', right: '18%' } }
 ])
 
